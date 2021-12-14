@@ -1,0 +1,181 @@
+<meta charset="UTF-8">
+<header>
+    <h1><center>P<span>O</span>KEDEX</center></h1> 
+</header>
+
+<main>
+
+
+<h2 id="name">GOUPIX / n°037</h2>
+
+
+<div class="mew">
+
+<img class="poke" id="1" src="file:///home/rsma04/Bureau/photos%20pokemon/goupix.png">
+
+</div>
+
+<h3 id="taille">TAILLE: 0,6 m / POIDS: 9,9 kg</h3>
+<div class="des"><p id="describe">Quand il est jeune, ce Pokémon a six queues magnifiques. De nouvelles queues apparaissent tout au long de sa croissance.</p></div> 
+
+<table class="elements" cellspacing="10">
+    <thead>
+        <th>type:</h3>
+    <th>Faiblesse(s):</h3>
+    </thead>
+  <tr>
+      <td class="t1">Feu</td>
+    <td class="f1">Eau</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td class="f2">Sol</td>
+        
+    </tr>
+  <tr><td></td>
+    <td class="f3">Roche</td></tr>
+</table>
+
+<h4>Evolutions :</h4>
+<div class="logoevo">
+<img onclick="evo1()" class="evo" src="file:///home/rsma04/Bureau/photos%20pokemon/goupix%20(copie).png">
+<img class="fleche" src="file:///home/rsma04/T%C3%A9l%C3%A9chargements/white-arrow-png-41951.png">
+<img onclick="evo2()" class="evo" src="file:///home/rsma04/Bureau/photos%20pokemon/feunard%20(copie).png">
+
+</div>
+
+</main>
+
+<script>
+
+    function evo1() {
+           document.getElementById("1").src="file:///home/rsma04/Bureau/photos%20pokemon/goupix.png";
+          var describe= document.getElementById("describe");
+        describe.innerHTML="Quand il est jeune, ce Pokémon a six queues magnifiques. De nouvelles queues apparaissent tout au long de sa croissance."
+       var name= document.getElementById("name");
+        name.innerHTML="GOUPIX / n°037";
+   var taille= document.getElementById("taille");
+   taille.innerHTML="TAILLE: 0,6 m / POIDS: 9,9 kg";
+      
+    }
+       function evo2() {
+           document.getElementById("1").src="file:///home/rsma04/Bureau/photos%20pokemon/feunard.png";
+          var describe= document.getElementById("describe");
+        describe.innerHTML="On dit qu'il vit 1 000 ans et que chacune de ses queues a un pouvoir magique."
+       var name= document.getElementById("name");
+        name.innerHTML="FEUNARD / n°038";
+        var taille= document.getElementById("taille");
+   taille.innerHTML="TAILLE: 1,1 m / POIDS: 19,9 kg";
+       } 
+    </script>
+
+<style>
+    @font-face { font-family: Pixel Alphabet; src: url('pixel_alphabet.ttf'); } 
+    @font-face { font-family: PixelArial11; src: url('PIXEARG_.TTF'); } 
+    @font-face { font-family: PixelArial11Bold; src: url('PIXEAB__.TTF'); } 
+    body{background-image: linear-gradient(to left bottom, #7e7777, #656060, #4e4a4a, #373535, #222121, #251b1c, #271518, #290e14, #42101a, #5c101c, #75111b, #8e1616);}
+    #num{font-size: 25;
+    color: white;
+    font-family: PixelArial11;}
+    
+    .mew{margin-left: 5%;
+        background-color: rgb(147, 103, 230);
+        width : 200px; height : 200px;
+        border-radius : 100px;
+    margin-top:100px;}
+    
+    .evo{ background-color: rgb(255, 255, 255);
+    width : 150px; height : 150px;
+    border-radius : 100px;
+    transition: width 0.5s, height 0.5s, transform 0.5s;
+    cursor: pointer;}
+    
+    .evo:hover{transform:scale(1.2, 1.2);}
+    
+
+h1{font-size: 100;
+        font-family: Pixel Alphabet;
+    color: white;}
+    
+        #name{font-size: 40;
+        margin-top: 30;
+        font-family: PixelArial11;
+        position: absolute;
+    margin-bottom: 50;
+    color: white;}
+    
+    h3{margin-left: 57%;
+    color: white;
+    font-family: PixelArial11Bold;
+    font-size: 13px;}
+    
+    span{color: red;}
+    
+        p{font-size: 18; 
+          color: white;
+    text-align: center;
+    font-family: PixelArial11;
+    transform: translateY(25%);
+    padding-top: 4%;
+    }
+    
+    h4{color: white;
+    font-size: 30px;
+    font-family: Pixel Alphabet;
+    margin: 30px 0px 0px 50px;}
+    
+    .des{ background-color:rgb(147, 103, 230);
+        width : 490px; height : 160px; margin-left: 50%;
+    border-radius: 50px;
+    box-shadow: 10px 7px 0px rgb(123, 62, 148);}
+    
+    .psy{height:40; width:40; }
+    
+    .poke:hover{transform: rotate(-15deg);}
+    
+    .poke{transition: 1s;}
+    
+     
+    .elements{font-family: Pixel Alphabet;
+        margin-left:56%;
+        padding-top: 2%;
+        border-radius: 50px;
+    
+        color: white  
+    }
+    .t1{
+    font-family: Pixel Alphabet;
+    border-radius: 50px;
+    width : 140px; height : 30px;
+    background-color:rgb(231, 126,  28) ;
+color:white;
+text-align: center;}
+
+.f1{
+    font-family: Pixel Alphabet;
+    border-radius: 50px;
+    width : 140px; height : 30px;
+    background-color:rgb(31, 28, 201);
+ color:white;
+text-align: center;}
+
+.f2{  font-family: Pixel Alphabet;
+    border-radius: 50px;
+    width : 140px; height : 30px;
+    background-color:rgb(143, 143, 143) ;
+color:white;
+text-align: center;
+}
+
+.f3{font-family: Pixel Alphabet;
+    border-radius: 50px;
+    width : 140px; height : 30px;
+    background-color:rgb(143, 71, 43) ;
+color:white;
+text-align: center;}
+
+.logoevo{ display: grid;
+ grid-template-columns:160px 190px 160px 190px 160px;
+padding:50px;}
+
+   </style>
